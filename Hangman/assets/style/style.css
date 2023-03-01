@@ -1,0 +1,61 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f6fd;
+    margin: 0;
+    position: relative;
+}
+#content {
+    height: 100%;
+    width: 100%;
+}
+.redb {
+    border: 1px solid red;
+}
+.blueb {
+    border: 1px solid blue;
+}
+.centertitle {
+    margin: 10px auto 40px;
+    text-align: center;
+}
+#toppart {
+    height: 50px;
+}
+#word {
+    min-height: 80px;
+    text-align: center;
+    font-size: 60px;
+    width: 100%;
+    margin: 30px auto;
+    text-transform: uppercase;
+}
+#hangman, #word {
+    font-family: 'Raleway', sans-serif;
+}
+#hangman {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    height: 454px;
+}
+#backdrop {
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+    padding: 150px 125px;
+}
+#alertbox {
+    text-align: center;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+@keyframes slidein {
+  0%   {left:200px; }
+  100%   {left:0px; }
+}
