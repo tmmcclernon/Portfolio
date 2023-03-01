@@ -1,0 +1,67 @@
+#player{
+    font-size: 25px;
+    text-align: center;
+    border : solid black 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+#welcome{
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+}
+#dealer{
+    font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    border: solid black 1px;
+}
+#titlescreen{
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Bebas Neue', cursive;
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton:disabled {
+	position:relative;
+	top:1px;
+	color: gainsboro;
+	background-color: #9db98e;
+}
+#buttonDiv{
+    text-align: center;
+}
+#mainScreen{
+    background-color: rgb(76, 194, 76);
+}
+#formScreen{
+	background-color: rgb(76, 194, 76);
+}
+#messagediv{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-align: center;
+    border: solid black 1px;
+}
+#walletDiv{
+	font-size: 25px;
+	text-align: left;
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Blackjack II</title>
+        <link href="assets/style/cardstyle.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/style/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body id=mainScreen>
+    	<h1 id=titlescreen>Blackjack</h1>
+    <p>Get as close as possible to 21 but don't go over!</p>
+    <div id=dealer>
+        <head>Dealer's Hand</head>
+        <section>
+           
+        </section>
+    </div>
+    <div id=buttonDiv>
+    <button id ="hit" type="button" class="myButton myButton:hover myButton:active myButton:disabled">Hit</button>
+    <button id = "deal" type="button" class="myButton myButton:hover myButton:active myButton:disabled">Deal</button>
+    <button id = "stay" type="button" class="myButton myButton:hover myButton:active myButton:disabled">Stay</button>
+    <button id = "set" type="button" class="myButton myButton:hover myButton:active myButton:disabled">Set Bet</button>
+    <button id = "increment" type="button" class="myButton myButton:hover myButton:active myButton:disabled">Increment Bet</button>
+    <button id = "decrement" type="button" class="myButton myButton:hover myButton:active myButton:disabled">Decrement Bet</button>
+    <button id= "reset" type="button" class="myButton myButton:hover myButton:active myButton:disabled">Reset</button>
+    <button id ="remoteMove" type="button" class="myButton myButton:hover myButton:active myButton:disabled">Remote Move</button>
+    </div>
+    <div id= messagediv >
+        <head>Message Board</head>
+        <section>
+            
+        </section>
+        </div>
+
+    <div id=player>
+        <head>Player's Hand</head>
+        <section id="cardArea">
+            
+        </section>
+    </div> 
+    <div id="walletDiv">
+        <head>Your Wallet:</head>
+
+    </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/models.js" type="text/javascript"></script>
+        <script src="assets/js/listeners.js" type="text/javascript"></script>
+        <script src="assets/js/view.js" type="text/javascript"></script>
+        <script src="assets/js/app.js" type="text/javascript"></script> 
+        <script src="assets/js/server.js" type="text/javascript"></script>
+        <script src="assets/js/blackjackadvice.js" type="text/javascropt"></script>
+        
+    </body>
+</html>
